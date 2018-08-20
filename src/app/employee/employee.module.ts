@@ -6,6 +6,9 @@ import { EmployeeListComponent } from '../employee-list/employee-list.component'
   imports: [
     CommonModule
   ],
-  declarations: [EmployeeListComponent]
+  declarations: [EmployeeListComponent],
+  exports: [
+	EmployeeListComponent
+  ]
 })
 export class EmployeeModule { }
